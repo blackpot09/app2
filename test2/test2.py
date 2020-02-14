@@ -7,7 +7,6 @@ html = """<h4> Volcano information:</h4>
 Name: <b><a href="https://www.google.com/search?q=%s,+%s+Volcano+site=www.wikipedia.org&btnI=Search" target="_blank">%s</a></b><br>
 Height: <i> %s m</i>
 """
-#html = "<b>" + df['NAME'][ind] + "</b>" + ", <i>Elevation: " + str(df['ELEV'][ind]) + " m</i>"
 
 map = folium.Map(location=[38.58, -99.09], zoom_start=6, tiles="Stamen Terrain")
 fg = folium.FeatureGroup(name="My Map")
